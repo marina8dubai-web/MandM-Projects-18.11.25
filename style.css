@@ -1,0 +1,83 @@
+<title>Learn to Code</title>
+<style>
+  /* ===== CSS Selectors ===== */
+  /* Universal selector */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* Type selectors */
+  body {
+    font-family: Arial, sans-serif;
+    /* Gradient background */
+    background: linear-gradient(to bottom right, #add8e6, #87cefa); 
+    color: #444;
+    line-height: 1.6;
+  }
+
+  h1 {
+    text-align: center;
+    color: #00695c;
+    margin: 20px 0;
+    border: 5px solid;
+  }
+
+  p {
+    margin-bottom: 15px;
+  }
+
+  /* Class selector */
+  .intro {
+    text-align: center;
+    font-size: 18px;
+    margin: 20px;
+  }
+
+  /* ID selector */
+  #highlights {
+    background-color: #e0f5f2;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  /* Descendant selector */
+  #highlights ol li {
+    margin: 8px 0;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  /* Grouping selector */
+  h2,
+  h3 {
+    color: #004d40;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  /* Attribute selector */
+  img[alt] {
+    border: 3px solid #004d40;
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+  }
+
+  .container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .places img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    text-align: center;
+  }
+</style>
